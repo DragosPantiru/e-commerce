@@ -1,0 +1,45 @@
+.container1 {
+    width: 300px;
+    height: 400px;
+    background-color: #002b33;
+    margin: 10px;
+    padding: 10px;
+    border: #439382 solid 1px;
+    // flex: 1;
+
+    .searchInput {
+        align-items: center;
+        margin: 5px;
+
+    }
+
+    .title {
+
+        color: aliceblue;
+
+
+        text-align: center;
+        padding: 5px;
+        text-decoration: underline;
+        font-size: medium;
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: column;
+
+
+        .categorie {
+
+            // display: flex;
+            cursor: pointer;
+            align-items: center;
+            color: aliceblue;
+            font-size: medium;
+            height: 30px;
+            margin: 2px;
+            padding: 1px;
+
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.BookSlider {
+    display: flex;
+
+    .BookBox {
+        margin: 10px;
+        width: 450px;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+
+
+        .wrapp {
+
+            z-index: 2;
+            // flex: 1;
+
+            img {
+                width: 160px;
+                height: 220px;
+
+            }
+
+
+
+        }
+
+        display: flex;
+
+        .container {
+            // flex: 1;
+            height: 170px;
+            z-index: 1;
+            width: 250px;
+            padding: 10px;
+            font-weight: 100;
+
+            font-family: system-ui;
+            background-color: #3c588f;
+
+            color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0 10px 10px 0;
+
+            .title {
+
+                // width: 50px;
+                font-size: large;
+                height: 30px;
+                font-weight: 700;
+                // letter-spacing: 1px;
+
+                // margin: 0;
+
+
+
+            }
+
+            .genre {
+                // width: 10px;
+                font-size: small;
+                font-weight: 200;
+                margin: 0;
+
+
+            }
+
+            .desription {
+
+                // width: 100%;
+                height: 100px;
+                font-size: small;
+                text-align: justify;
+                margin: 0;
+
+
+
+            }
+
+            .btn {
+                margin: 4px;
+                width: 120px;
+                background-color: transparent;
+                color: aliceblue;
+                cursor: pointer;
+                border-color: aliceblue;
+                border: solid 1px aliceblue;
+            }
+
+            .btn:hover {
+                background-color: aliceblue;
+                color: #3c588f;
+                box-shadow: 0px 0px 20px white;
+            }
+
+        }
+
+    }
+}

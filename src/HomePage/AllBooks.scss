@@ -1,0 +1,18 @@
+.container3 {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    // flex: 3;
+
+    .book {
+        width: 130px;
+        margin: 10px;
+        cursor: pointer;
+
+        img {
+            width: 130px;
+
+        }
+    }
+
+}
