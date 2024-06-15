@@ -46,10 +46,13 @@ function Home() {
     );
 
     return (
-        <div className="container2">
-            <SideBar onCategoryChange={handleCategoryChange} />
-            <AllBooks books={filteredBooks} />
-        </div>
+        <>
+            <BookSlider />
+            <div className="container2">
+                <SideBar onCategoryChange={handleCategoryChange} />
+                <AllBooks books={filteredBooks} />
+            </div>
+        </>
     );
 }
 
