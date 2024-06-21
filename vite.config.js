@@ -6,4 +6,11 @@ export default defineConfig({
   base: "/e-commerce/",
   plugins: [react()],
   publicDir: 'public',
+  build: {
+    outDir: 'dist',
+
+  },
+  server: {
+    open: true,
+  },
 })
