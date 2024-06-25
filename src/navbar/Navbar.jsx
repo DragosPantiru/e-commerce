@@ -65,7 +65,7 @@ const Navbar = ({ menu }) => {
                 <AppBar position="static">
                     <Toolbar className="toolbar">
 
-                        <img src="/Logo.png" alt="" className="logo" />
+                        <img src="./Logo.png" alt="" className="logo" />
                         <span className='title'>The Suitcase with books</span>
                         <Search>
                             <SearchIconWrapper >
