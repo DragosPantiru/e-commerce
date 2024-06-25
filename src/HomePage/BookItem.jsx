@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import BookSlider from './BookSlider';
 // import './BookItem.scss';
 function BookItem({ id, img }) {
     return (
