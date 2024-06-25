@@ -14,7 +14,7 @@ import More from './pages/More'
 import Home from './pages/Home'
 
 const menu = [
-  { id: crypto.randomUUID(), name: "Home", adress: "/e-commerce/" },
+  { id: crypto.randomUUID(), name: "Home", adress: "/" },
   { id: crypto.randomUUID(), name: "Detective", adress: "/Detective" },
   { id: crypto.randomUUID(), name: "Love", adress: "/Love" },
   { id: crypto.randomUUID(), name: "Novel", adress: "/Novel" },
@@ -29,7 +29,7 @@ function App() {
       <Navbar menu={menu} />
       <Routes>
 
-        <Route path='/e-commerce/' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/Detective' element={<Detective />} />
         <Route path='/Love' element={<Love />} />
         <Route path='/Novel' element={<Novel />} />
