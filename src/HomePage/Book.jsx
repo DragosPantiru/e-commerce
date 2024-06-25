@@ -41,7 +41,7 @@ const Book = ({ id, img, name, desc, genre }) => {
                     hover: { rotate: -10 }
                 }}
             >
-                <img src="./Biography1.png" alt="" />
+                <img src={img} alt="" />
             </motion.div>
             <div className='container' >
                 <span className="title">
