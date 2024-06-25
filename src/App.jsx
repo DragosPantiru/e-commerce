@@ -29,7 +29,7 @@ function App() {
       <Navbar menu={menu} />
       <Routes>
 
-        <Route path='/' element={<Home />} />
+        <Route path='/e-commerce/' element={<Home />} />
         <Route path='/Detective' element={<Detective />} />
         <Route path='/Love' element={<Love />} />
         <Route path='/Novel' element={<Novel />} />
